@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Page title </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="my-form.css">
+</head>
+
+<body>
+<h1>About You</h1>
+<p>
+<label> Name-->
+<input type= "text" name="user_name" required>
+</label>
+</p>
+
+<p>
+<label> Email-->
+<input type="email" name="user_email">
+</label>
+</p>
+
+
+<p>
+<fieldset>
+ <legend> Which of these drinks do you like? (You may choose more than one 
+
+option.)</legend>
+<p><label><input type="checkbox" name="drinks" value="Boba Milk Tea"> Boba Milk 
+
+Tea </label></p>
+<p><label> <input type="checkbox" name="drink" required value="Any Soda"> Any 
+
+Soda</label> </p>
+<p><label> <input type="checkbox" name="drink" required value= "Water"> Water 
+
+</label> </p>
+<p><label> <input type="checkbox" name="drink" required value= "Smoothie"> 
+
+Smoothie </label> </p>
+<p><label> <input type="checkbox" name="drink" required 
+
+value="Coffee">Coffee</label></p>
+<p><label> <input type="checkbox" name="drink" required value="Shakes"> 
+
+Shakes</label></p>
+</fieldset>
+</p>
+
+
+<fieldset>
+<legend> Which grade level are you in?</legend>
+<select name="grade level" id="grade level">
+<option value="Freshman">Freshman</option>
+<option value="Sophomore">Sophomore</option>
+<option value="Junior">Junior</option>
+<option value="Senior">Senior</option>
+</fieldset>
+<br>
+
+
+
+<input type= "submit"/>
+<form onsubmit="return confirm('Do you really want to submit the form?');">
+<input type="submit"/>
+</form>
+</body>
+</html>
+
